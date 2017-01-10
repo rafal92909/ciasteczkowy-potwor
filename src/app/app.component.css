@@ -1,0 +1,75 @@
+div.angrytext {
+ width:300px;
+ margin: auto;
+ -webkit-animation: jump 1.5s ease 0s infinite normal ;
+ animation: jump 1.5s ease 0s infinite normal ;
+}
+
+@-webkit-keyframes jump {
+  0%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  20%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  40%{
+	-webkit-transform: translateY(-130px);
+	transform: translateY(-130px);
+  }
+  50%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  60%{
+	-webkit-transform: translateY(-65px);
+	transform: translateY(-65px);
+  }
+  80%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  100%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0%{
+	transform: translateY(0);
+  }
+  20%{
+	transform: translateY(0);
+  }
+  40%{
+	transform: translateY(-130px);
+  }
+  50%{
+	transform: translateY(0);
+  }
+  60%{
+	transform: translateY(-65px);
+  }
+  80%{
+	transform: translateY(0);
+  }
+  100%{
+	transform: translateY(0);
+  }
+}
+
+#clockdiv{
+    color: #fff;
+    font-weight: 100;
+    font-size: 130px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: #311901;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; 
+    width: 180px; 
+    text-align: center;
+}
